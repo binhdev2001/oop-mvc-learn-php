@@ -1,0 +1,44 @@
+.header-search-form-wrapper .searchform .button.icon {
+  height: 43px;
+  width: 70px;
+  background-image: linear-gradient(to right, #536eb5, #448bca);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.header-button .is-outline {
+  color: #020202;
+  text-transform: none;
+  font-weight: normal;
+  font-size: 14px;
+  padding-top: 2px;
+}
+
+.header-button .is-outline:hover {
+  color: white;
+}
+
+.header-bottom {
+  background-image: linear-gradient(to right, #536eb5, #448bca);
+  border-top: 1px solid #f6f6f6;
+  box-shadow: 2px 7px 10px #0000000f;
+}
+.menu-mobile {
+  display: none !important;
+  width: 38px;
+  height: 38px;
+}
+@media (max-width: 538px) {
+  .div-searchMenu {
+    display: none !important;
+  }
+  .login-user-desktop {
+    display: none !important;
+  }
+  .login-user-mobile {
+    display: block !important;
+  }
+  .menu-mobile {
+    display: block !important;
+  }
+}
